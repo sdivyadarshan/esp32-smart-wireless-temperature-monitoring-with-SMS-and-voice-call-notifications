@@ -1,0 +1,24 @@
+# Arduino / PlatformIO outputs
+build/
+.pio/
+.cache/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+
+# Local secrets
+secrets.h
+secrets.local.h
+credentials.h
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
