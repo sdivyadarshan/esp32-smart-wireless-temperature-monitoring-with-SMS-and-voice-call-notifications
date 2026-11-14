@@ -1,0 +1,9 @@
+Signal,ESP32 Pin,Peripheral,Notes
+DS18B20_DATA,GPIO4,OneWire,Pull-up to 3.3V
+BUZZER_SIGNAL,GPIO18,Digital output,Check module current and voltage
+LCD_SDA,GPIO21,I2C,Data
+LCD_SCL,GPIO22,I2C,Clock
+DS18B20_VDD,3V3,Power,Sensor supply
+DS18B20_GND,GND,Ground,Common ground
+LCD_VCC,5V/VIN,Power,Verify backpack compatibility
+LCD_GND,GND,Ground,Common ground
