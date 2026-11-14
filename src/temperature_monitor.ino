@@ -89,7 +89,7 @@ main{max-width:620px;margin:auto;background:#1d293b;padding:24px;border-radius:1
 input,button{font-size:1rem;padding:12px;border:0;border-radius:8px}
 button{background:#38bdf8;color:#082f49;font-weight:bold}small{color:#aab8cc}
 </style></head><body><main><h1>ESP32 Smart Temperature Monitor</h1>
-<p>Current temperature</p><div class="value>)rawliteral";
+<p>Current temperature</p><div class="value">)rawliteral";
   if (currentTemp == DEVICE_DISCONNECTED_C) page += "Sensor error";
   else page += String(currentTemp, 1) + " &deg;C";
   page += R"rawliteral(</div><p>Configured threshold: <b>)rawliteral";
